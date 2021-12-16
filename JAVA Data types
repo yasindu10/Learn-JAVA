@@ -1,0 +1,10 @@
+public class Main {
+	public static void main(String[] args) {
+
+		String myText = "Hello World";  // String
+		char myLetter = 'D';           // Character
+		int myNum = 5;                // Integer (whole number)
+		float myFloatNum = 5.99f;    // Floating point number
+		boolean myBool = true;      // Boolean
+	} 
+}
