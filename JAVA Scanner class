@@ -1,0 +1,24 @@
+package com.Meta;
+
+// import Scanner class
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		// Scanner class input
+		Scanner cs = new Scanner(System.in);
+		
+		System.out.print("Enter your name :" + " ");
+		String name = cs.nextLine();
+		
+		
+		System.out.print("Enter your age :" + " ");
+		int age = cs.nextInt();
+		
+		
+		System.out.println("Hellow" + " " + name);
+		
+		System.out.println("You are" + " " + age + " " + "years old.");
+		
+	}
+}
